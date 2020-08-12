@@ -203,7 +203,7 @@ jQuery(document).ready( function() {
 	});
 	
 	// show or hide the multiedit custom field table rows
-	jQuery('table#list-table tr#multishow span').live( 'click' , function (){
+	jQuery('table#list-table tr#multishow span').on( 'click' , function (){
 		jQuery('table#list-table tbody tr.mevalue').toggle();
 	});
 	
